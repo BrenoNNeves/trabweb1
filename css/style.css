@@ -87,7 +87,7 @@ body{
 }
 
 .image{
-    background: url("images/clinica.jpg") center no-repeat ;
+    background: url("../images/clinica.jpg") center no-repeat ;
     background-size: cover;
     width: 50%;
 }

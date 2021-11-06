@@ -23,25 +23,22 @@ a{
 body{
     background: #312e38;
 }
-.container-cadastro{
+.container-agendamento{
     display: flex;
     width: 100vw;
     height: 100vh;
-}
-.cadastro{
-    width: 50%;
-    display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
+
 }
-.cadastro-content{
+
+.agendamento-content{
     display: flex;
     flex-direction: column;
     width: 407px;
 }
 
-.cadastro-content h1{
+.agendamento-content h1{
     font-size: 24px;
     font-weight: 500;
     color: #f4ede8;
@@ -50,7 +47,7 @@ body{
 
     
 }
-.cadastro-content input{
+.agendamento-content input{
     height: 70px;
     background: #232129;
     border-radius: 10px;
@@ -59,11 +56,11 @@ body{
     font-weight: 400;
     padding-left: 60px;
 }
-.cadastro-content input + input {
+.agendamento-content input + input {
     margin-top: 10px;
 }
 
-.cadastro-content a{
+.agendamento-content a{
     color: #f4ede8;
     font-size: 16px;
     font-weight: 400px;
@@ -71,7 +68,7 @@ body{
     margin-top: 30px;
 }
 
-.cadastro-content button{
+.agendamento-content button{
     background: #ef5da8;
     border-radius: 10px;
     color: #312e38;

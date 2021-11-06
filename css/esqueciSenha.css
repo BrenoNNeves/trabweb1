@@ -68,9 +68,8 @@ body{
     margin-top: 25px;
 }
 .image{
-    background: url("images/Interrogação.png") center no-repeat ;
-    background-size: cover;
-    width: 20%;
-    height: 400px;
+    background: url("../images/Interrogação.png") center no-repeat ;
+    width: 50%;
+    height: 100%;
 }
 
