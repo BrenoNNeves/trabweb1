@@ -1,35 +1,34 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Redefinir Senha</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/trabweb1/css/redefinirsenha.css">
-</head>
-<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/redefinirsenha.css" />
+  </head>
+  <body>
     <div class="container-redefinirSenha">
-
-            <div class="redefinirSenha-content">
-                <h1>Digite sua senha:</h1>
-                <input type="password" placeholder="Nova senha:">
-                <input type="password" placeholder="Digite sua senha novamente:">
-                <button type="button" class="btn" id="redSenha" >Redefinir senha</button>
-                
-            
-        </div>
-        
+      <div class="redefinirSenha-content">
+        <h1>Digite sua senha:</h1>
+        <input type="password" placeholder="Nova senha:" />
+        <input type="password" placeholder="Digite sua senha novamente:" />
+        <button type="button" class="btn" id="redSenha">Redefinir senha</button>
+      </div>
     </div>
     <script>
-        var redSenha = document.getElementById("redSenha")
-        redSenha.addEventListener("click", clickRedSenha)
+      var redSenha = document.getElementById('redSenha');
+      redSenha.addEventListener('click', clickRedSenha);
 
-        function clickRedSenha(){
-            alert('Senha redefinida')
-        }
+      function clickRedSenha() {
+        alert('Senha redefinida');
+      }
     </script>
-</body>
+  </body>
 </html>

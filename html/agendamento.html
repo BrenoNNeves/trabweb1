@@ -1,37 +1,38 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Agendamento na clinica Papai</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/trabweb1/css/agendamento.css">
-</head>
-<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="../css/agendamento.css" />
+  </head>
+  <body>
     <div class="container-agendamento">
-        
-            <form class="agendamento-content">
-                <h1>Faça o agendamento do cliente</h1>
-                <input type="text" data-js="input-nome" placeholder="Nome">
-                <input type="tel" data-js="input-tel" placeholder="Número de telefone">
-                <input type="date" data-js="input-data" placeholder="data">
-                <button type="button" class="btn" onClick="window.open('telausuario.html','Tela dos clientes','')">Criar </button>
-                <a href="index.html" id= "back-to-login">voltar para login</a>
-            </form>
+      <form action="/" data-js="form-agendamento" class="agendamento-content">
+        <h1>Faça o agendamento do cliente</h1>
+        <input type="text" data-js="input-nome" placeholder="Nome" />
+        <input
+          type="tel"
+          data-js="input-tel"
+          placeholder="Número de telefone"
+        />
+        <input type="date" data-js="input-data" placeholder="data" />
+        <button type="submit" class="btn">Criar</button>
+        <a href="index.html" id="back-to-login">voltar para login</a>
+      </form>
     </div>
-    <script>
-        let form = document.querySelector('form')
-        
-        let inputNome = document.querySelector('[data-js="input-nome"]')
-        let inputTel = document.querySelector('[data-js="input-tel"]')
-        let inputData = document.querySelector('[data-js="input-data"]')
-        console.log(inputData)
-        
-    </script>
-    
-</body>
+    <script src="../js/dom.js"></script>
+    <script src="../js/agendamento.js"></script>
+  </body>
 </html>
