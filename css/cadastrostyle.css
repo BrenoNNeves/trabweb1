@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab',serif;
+}
+button{
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+input{
+    border: none;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    background: #312e38;
+}
+.container-cadastro{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+.cadastro{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.cadastro-content{
+    display: flex;
+    flex-direction: column;
+    width: 407px;
+}
+
+.cadastro-content h1{
+    font-size: 24px;
+    font-weight: 500;
+    color: #f4ede8;
+    text-align: center;
+    margin-bottom: 30px;
+
+    
+}
+.cadastro-content input{
+    height: 70px;
+    background: #232129;
+    border-radius: 10px;
+    color: #f4ede8;
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 60px;
+}
+.cadastro-content input + input {
+    margin-top: 10px;
+}
+
+.cadastro-content a{
+    color: #f4ede8;
+    font-size: 16px;
+    font-weight: 400px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.cadastro-content button{
+    background: #ef5da8;
+    border-radius: 10px;
+    color: #312e38;
+    height: 50px;
+    margin-top: 25px;
+}
+
+.image-cadeira{
+    background: url("images/cadeira.jpg") center no-repeat ;
+    background-size: top;
+    width: 50%;
+    
+}

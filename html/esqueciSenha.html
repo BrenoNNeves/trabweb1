@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seu perfil cliente Papai</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/trabweb1/css/esqueciSenha.css">
+</head>
+<body>
+    <div class="container-esqueciSenha">
+        <div class="esqueciSenha">
+            <div class="esqueciSenha-content">
+                <h1>Digite seu e-mail</h1>
+                <input type="text" placeholder="E-mail">
+                <button type="button" onClick="window.open('redefinirsenha.html','Redefinir Senha',''); return false;"> Nova senha</button>
+                
+            </div>
+
+            
+        </div>
+        <div class="image">
+
+        </div> 
+    </div>
+    <Script>
+        var nvSenha = document.getElementById("NovaSenha")
+        nvSenha.addEventListener("click", clickNvSenha)
+
+        function clickNvSenha(){
+            alert('Senha redefinida')
+        }
+    </Script>
+</body>
+</html>
