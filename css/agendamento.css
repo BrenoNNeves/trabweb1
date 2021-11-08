@@ -23,7 +23,7 @@ a{
 body{
     background: #312e38;
 }
-.container-agendamento{
+.container{
     display: flex;
     width: 100vw;
     height: 100vh;
@@ -81,4 +81,7 @@ body{
     background-size: top;
     width: 50%;
     
+}
+nav{
+
 }
