@@ -24,7 +24,7 @@ a{
 body{
     background: #312e38;
 }
-ul{
+#ulcliente{
     list-style: none;
 
 }
@@ -41,7 +41,7 @@ h1{
     color: #f4ede8;
     margin-bottom: 40px;
 }
-li{
+#cliente{
     height: 70px;
     background: #232129;
     border-radius: 10px;
@@ -53,7 +53,7 @@ li{
     align-items: center;
     justify-content: center;
 }
-li + li{
+#cliente + #cliente{
     margin-top: 20px;
 }
 a{
