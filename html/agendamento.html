@@ -5,23 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Agendamento na clinica Papai</title>
-    
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500&display=swap"
       rel="stylesheet"
     />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="../css/global.css" />
     <link rel="stylesheet" href="../css/agendamento.css" />
-   
   </head>
-  <body >
+  <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <a class="navbar-brand" href="#">Barra de Navegação:</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
@@ -38,23 +55,42 @@
         </ul>
       </div>
     </nav>
-    
-    
-    <div class="container">
-      
-      <form action="/" data-js="form-agendamento" class="agendamento-content">
-        <h1>Faça o agendamento do cliente</h1>
-        <input type="text" data-js="input-nome" placeholder="Nome" />
+
+    <div class="container tela-agendamento">
+      <form action="/" data-js="form-agendamento" class="content">
+        <h1 class="titulo">Faça o agendamento do cliente</h1>
         <input
+          class="input-padrao"
+          type="text"
+          data-js="input-nome"
+          placeholder="Nome"
+        />
+        <input
+          class="input-padrao"
           type="tel"
           data-js="input-tel"
           placeholder="Número de telefone"
         />
-        <input type="date" data-js="input-data" placeholder="data" />
-        <button type="submit" >Criar</button>
-        <a href="../index.html" id="back-to-login">voltar para login</a>
+        <input
+          class="input-padrao"
+          type="date"
+          data-js="input-data"
+          placeholder="data"
+        />
+        <button type="submit" class="btn-padrao">Criar</button>
+        <a class="link" href="../index.html" id="back-to-login"
+          >voltar para login</a
+        >
       </form>
     </div>
+    <footer>
+      <div>
+        © 2021 Copyright:
+        <a href="https://www.linkedin.com/in/breno-neves-634454182/"
+          >Breno Neves</a
+        >
+      </div>
+    </footer>
     <script src="../js/dom.js"></script>
     <script src="../js/agendamento.js"></script>
   </body>

@@ -1,54 +1,20 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Roboto Slab', serif;
-}
-
-button {
-  cursor: pointer;
-  border: none;
-  outline: none;
-  background: transparent;
-}
-
-input {
-  border: none;
-}
-
-a {
-  text-decoration: none;
-}
-
-body {
-  background: #312e38;
-}
 #ulcliente {
   list-style: none;
 }
-.navbar {
-  padding: 10px;
-  /* height: 52px; */
-}
-/* .nav-link,
-.navbar-brand {
-  margin: 0;
-} */
-.container {
-  height: (100vh - 60px);
-  display: flex;
+.tela-usuario {
+  height: calc(100vh - 120px);
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  flex: 1;
 }
 h1 {
-  font-size: 42px;
+  font-size: 36px;
   color: #f4ede8;
   margin-bottom: 40px;
-  margin-top: 20px;
 }
 #cliente {
-  height: 60px;
+  height: 50px;
   background: #232129;
   border-radius: 10px;
   color: #f4ede8;
@@ -60,7 +26,7 @@ h1 {
   justify-content: center;
 }
 #cliente + #cliente {
-  margin-top: 20px;
+  margin-top: 10px;
 }
 #back-to-login {
   color: #f4ede8;

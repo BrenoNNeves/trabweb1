@@ -11,17 +11,33 @@
       href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500&display=swap"
       rel="stylesheet"
     />
+
+    <link rel="stylesheet" href="../css/global.css" />
     <link rel="stylesheet" href="../css/redefinirsenha.css" />
   </head>
   <body>
-    <div class="container-redefinirSenha">
-      <div class="redefinirSenha-content">
-        <h1>Digite sua senha:</h1>
-        <input type="password" placeholder="Nova senha:" />
-        <input type="password" placeholder="Digite sua senha novamente:" />
-        <button type="button" class="btn" id="redSenha">Redefinir senha</button>
+    <div class="container tela-redefinirSenha">
+      <div class="content">
+        <h1 class="titulo">Digite sua senha:</h1>
+        <input class="input-padrao" type="password" placeholder="Nova senha:" />
+        <input
+          class="input-padrao"
+          type="password"
+          placeholder="Digite sua senha novamente:"
+        />
+        <button type="button" class="btn-padrao" id="redSenha">
+          Redefinir senha
+        </button>
       </div>
     </div>
+    <footer>
+      <div>
+        © 2021 Copyright:
+        <a href="https://www.linkedin.com/in/breno-neves-634454182/"
+          >Breno Neves</a
+        >
+      </div>
+    </footer>
     <script>
       var redSenha = document.getElementById('redSenha');
       redSenha.addEventListener('click', clickRedSenha);
